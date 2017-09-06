@@ -1,0 +1,39 @@
+
+
+body {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+
+a.simple {color:#E65C00;}
+a.simple:link  {text-decoration: none; color: #E65C00;}
+a.simple:visited {text-decoration: none; color: #E65C00;}
+a.simple:hover {text-decoration: none; border-bottom: none; color: #B24700;}
+a.simple:active {text-decoration: none; color: #E65C00;}
+
+a.names {color:#000000;}
+a.names:link  {text-decoration: none; color: #000000;}
+a.names:visited {text-decoration: none; color: #000000;}
+a.names:hover {text-decoration: none; border-bottom: none; color: #E65C00;}
+a.names:active {text-decoration: none; color: #000000;}
+
+a.env {color:#979797;}
+a.env:link {text-decoration: none; color: #979797;}
+a.env:visited {text-decoration: none; color: #979797;}
+a.env:hover {text-decoration: none; border-bottom: none; color: #333333;}
+a.env:active {text-decoration: none; color: #979797;}
+
+
+a.linkedin {color:#516EA9;}
+a.linkedin:link  {text-decoration: none; color: #516EA9;}
+a.linkedin:visited {text-decoration: none; color: #516EA9;}
+a.linkedin:hover {text-decoration: none; border-bottom: none; color: #254A93;}
+a.linkedin:active {text-decoration: none; color: #516EA9;}
+
+
+a.github {color:#555555;}
+a.github:link {text-decoration: none; color: #555555;}
+a.github:visited {text-decoration: none; color: #555555;}
+a.github:hover {text-decoration: none; border-bottom: none; color: #2B2B2B;}
+a.github:active {text-decoration: none; color: #555555;}
