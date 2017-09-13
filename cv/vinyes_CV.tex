@@ -19,14 +19,14 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.82]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \name{Marina}{Vinyes}
-\title{Phd in Machine Learning}                               % optional, remove / comment the line if not wanted
-\address{80 avenue Philippe Auguste}{75020}{France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\title{ }                               % optional, remove / comment the line if not wanted
+%\address{80 avenue Philippe Auguste}{75020}{France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+33~667~50~47}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
@@ -51,9 +51,10 @@
 \begin{document}
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
+\vspace{-5em} 
 \makecvtitle
 
-
+\vspace{-5em}
 %Optimization...
 %\section{Research }
 %Machine Learning
@@ -63,38 +64,39 @@
 
 \section{Education}
 %\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\vspace{2mm}
-\cventry{2013--2017}{Phd in Machine Learning}{Imagine lab, Ecole des Ponts ParisTech}{France}{}
-{\textit{Machine learning algorithms for large matrix models}  under the supervision of Guillaume Obozinski.}
-\vspace{2mm}
+%\vspace{2mm}
+\cventry{2013--present}{Phd in Machine Learning}{Imagine lab, Ecole des Ponts ParisTech}{France}{}
+{\textit{"Machine learning algorithms for large matrix models"}  under the supervision of Guillaume Obozinski.}
+%\vspace{2mm}
 %use structured sparsity to explore more efficiently large feature spaces, and to uncover the latent structure of signals
-\cventry{2012--2013}{Msc in  Computer Vision and Machine Learning (MVA)}{ENS Cachan}{France}{}{}
-\cvlistdoubleitem{Statistical learning}{Convex Optimization}
-\cvlistdoubleitem{Probabilistic graphical models}{Reinforcement learning}
-\cvlistdoubleitem{Kernel Methods}{Sparsity and compressed sensing}
+\cventry{2012--2013}{Msc in  Computer Vision and Machine Learning (MVA)}{ENS Cachan}{France}{GPA 3.9/4.0}{}
+%\cvlistdoubleitem{Statistical learning}{Convex Optimization}
+%\cvlistdoubleitem{Probabilistic graphical models}{Reinforcement learning}
+%\cvlistdoubleitem{Kernel Methods}{Sparsity and compressed sensing}
 
-\vspace{2mm}
+
+%\vspace{2mm}
 \cventry{2009--2011}{Engineering degree in Mathematics and Computer Science}{Ecole des Ponts ParisTech}{France}{}{}
 
-\vspace{2mm}
-\cventry{2006--2009}{Preparatory classes in Mathematics and Physics}{Lycée Saint Louis}{France}{In the top 3\% results}{Intensive program preparing for the national competitive exam for entry to engineering schools}
+%\vspace{2mm}
+%\cventry{2006--2009}{Preparatory classes in Mathematics and Physics}{Lycée Saint Louis}{France}{In the top 3\% results}{Intensive program preparing for the national competitive exam for entry to engineering schools}
 
-\vspace{2mm}
-\cventry{2003--2006}{High School diploma}{Lycée Français de Barcelone}{Barcelona}{}{}
+%\vspace{2mm}
+%\cventry{2003--2006}{High School diploma}{Lycée Français de Barcelone}{Barcelona}{Graduated with honors}{}
 
 \section{Experience}
 
-\vspace{2mm}
+%\vspace{2mm}
 \cventry{2015--2016}{Teaching Introductory course of C++ programming}{Ecole des Ponts ParisTech}{France}{}{} 
-\vspace{2mm}
+%\vspace{2mm}
 \cventry{2011--2012}{Research intern in medical imaging}{Philips Healthcare}{Suresnes}{}
-{Development of an interface with C\# to compare MRI images and echocardiographies of heart failure patients}
+{Designed and developped an interface for cardiologs with C\# to compare MRI images and echocardiographies of heart failure patients. Included automatic registration and segmentation of the MRIs. }
 
-\vspace{2mm}
+%\vspace{2mm}
 \cventry{April--June 2010}{Lab assistant}{Tongji University}{Shanghai}{}
- {Analyzing data for a study of water pollution by heavy metals}
+ {Analyzed data for a study of heavy metals leaching in the soil.}
 
-\vspace{2mm}
+%\vspace{2mm}
 \cventry{Sept. 2009}{Internship}{Sanofi Aventis}{France}{}
  {Worker in a line work labeling drugs}
  
@@ -103,33 +105,35 @@
 
 
 \section{Projects}
-\vspace{2mm}
+%\vspace{2mm}
 \cventry{April 2014}{Google Paris Hash Code 2014}{Paris}{France}{}{One day team programming competition. The task was, given a map of Paris and limited time, choose a route for the 8 cars which allows you to cover as many streets as possible. }
 
-\vspace{2mm}
+%\vspace{2mm}
 \cventry{2013}{Master thesis on Large scale online Collaborative Filtering}{Paris}{France}{}{New 
 online algorithm for making automatic predictions about the interests of a user by collecting preferences or taste information from many users (recommender systems problem).}
 
 \section{Publications}
 
 M. Vinyes, G. Obozinski.\textbf{Fast column generation for atomic norm regularization}, Proceedings of the 20th Conference on Artificial Intelligence and Statistics, 2017.
-\\
-
+\vspace{1em}\\
 M. Vinyes, G. Obozinski.\textbf{Column generation for atomic norm regularization}, NIPS workshop Learning in High Dimension with Structure, 2016.
 
+\section{Programming experience and skills}
+\cvitem{Computer skills}{Advanced knowledge in \textbf{Matlab}, \textbf{C++}. Competent in \textbf{Python} and \textbf{C\#}}
+\cvitem{Other}{Machine Learning, Convex Optimization, Sparsity, Strucured Optimization, Large Scale Variable Selection, Matrix Factorisation, Recommender Systems, Collaborative Filtering, Statistical Learning, Probabilistic Graphical Models, Image Processing} 
+
 \section{Languages}
-Native speaker in \textbf{French}, \textbf{Spanish} and \textbf{Catalan}.  Fluent in \textbf{English}. Basic knowledge of \textbf{Chinese}.
+Fluent in \textbf{English}. Native speaker in \textbf{French}, \textbf{Spanish} and \textbf{Catalan}.  Basic knowledge of \textbf{Chinese}.
 
 %\section{Languages}
 %\cvitemwithcomment{Spanish, French, Catalan,}{Native speaker}{}
 %\cvitemwithcomment{English}{Fluent}{}
 %\cvitemwithcomment{Chinese}{Basic knowledge}{}
 
-\section{Computer skills}
-Advanced knowledge in \textbf{Matlab}, \textbf{C++}. Competent in \textbf{Python}.
 
-\section{Interests}
-Outdoor sports (running, road cycling, swimming) and painting.
+
+%\section{Interests}
+%Outdoor sports (running, road cycling, swimming) and painting.
 
 
 
