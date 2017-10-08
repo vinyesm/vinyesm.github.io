@@ -5,12 +5,34 @@ body {
     padding-bottom: 30px;
 }
 
+h4{
+    color: #EF7783;
+}
 
-a.simple {color:#E65C00;}
-a.simple:link  {text-decoration: none; color: #E65C00;}
-a.simple:visited {text-decoration: none; color: #E65C00;}
+.navbar {
+    background-color: #8C5E58;
+    font-weight: 300;
+    border: none;
+    
+}
+
+.navbar
+
+a{
+    color:#3FA7D6; !important
+}
+
+.subtitle{
+    margin: 40px 0 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+}
+
+a.simple {color:#3FA7D6;}
+a.simple:link  {text-decoration: none; color: #3FA7D6;}
+a.simple:visited {text-decoration: none; color: #3FA7D6;}
 a.simple:hover {text-decoration: none; border-bottom: none; color: #B24700;}
-a.simple:active {text-decoration: none; color: #E65C00;}
+a.simple:active {text-decoration: none; color: #3FA7D6;}
 
 a.names {color:#000000;}
 a.names:link  {text-decoration: none; color: #000000;}
